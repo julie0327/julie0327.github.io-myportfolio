@@ -7,8 +7,14 @@ body{
 header{
    padding:5px;
    background-color: #D4E6F1;
-   
+   position:fixed;
+   top:0;
+   left:0;
+   right:0;
+   z-index: 1000;
+   width:100%
 }
+
 #navbar img{
     width:150px;
     height: 150px;
@@ -42,13 +48,16 @@ a{
 a:hover{
     color:#7FB3D5;
 }
+a:active{
+    color:grey;
+}
 
 #home img{
     width:20%;
     height: 40%;
     padding: 10px;
     margin-right: 80px;
-    margin-top: 20px;
+    margin-top: 230px;
     float: right;
     border: #34495E solid 8px;
     border-radius: 7px;
@@ -59,9 +68,9 @@ font-size: 25px;
 display: flex;
 justify-content: center;
 padding: 20px;
-margin-top: 20px;
+margin-top: 2px;
 position: relative;
-top:250px;
+top:350px;
 color:#D98880;
 }
 
