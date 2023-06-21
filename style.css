@@ -78,20 +78,39 @@ color:#D98880;
 
 /* main layout */
 .content{
-    width: 95%;
+    width: 100%;
     display:inline-block;
     margin-left: 20px;
-    margin-top: 25px;
+    margin-top: 45px;
 }
-.content div{
+.content h3{
+color:#EAF2F8;
+font-family: 'Merienda',cursive;
+font-size: 40px;
+}
+.content #work{
     margin-bottom: 20px;
-    float:right;
-    width:70%;
+    float:left;
+    width:80%;
     padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 500px;
     background-color: #0072bb;
-    color: #ffffff;
+    color:  #D4E6F1;
+}
+.content img{
+   display: inline;
+    width:400px;
+    height:300px;
+    margin: 20px;
+}
+.content .hrimg{
+    margin-left: 15px;
+    display: inline;
+    width:200px;
+    height:100px;
+}
+.content .work_p{
+    display: flex;
 }
 
 /* footer layout */
