@@ -84,6 +84,7 @@ color:#D98880;
     margin-top: 45px;
 }
 .content h3{
+margin-bottom: 15px;
 color:#EAF2F8;
 font-family: 'Merienda',cursive;
 font-size: 40px;
@@ -91,24 +92,35 @@ font-size: 40px;
 .content #work{
     margin-bottom: 20px;
     float:left;
-    width:80%;
+    width:95%;
     padding: 50px;
     height: 500px;
     background-color: #0072bb;
     color:  #D4E6F1;
 }
-.content img{
-   display: inline;
-    width:400px;
-    height:300px;
-    margin: 20px;
+.content .hr_img{
+    display: flex;
+    margin: 10px;
+
 }
-.content .hrimg{
-    margin-left: 15px;
-    display: inline;
+.content .l_hr_img img{
+    /* display: inline; */
+    /* border:solid black; */
+    width:600px;
+    height: 250px;
+    margin: 10px;
+}
+.content .s_hr_img img{
+    margin: 10px;
+    /* border: solid red; */
     width:200px;
-    height:100px;
+    height: 100px;
 }
+.content h4{
+    margin-left: 20px;
+    margin-top: 30px;
+    
+    }
 .content .work_p{
     display: flex;
 }
