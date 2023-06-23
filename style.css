@@ -6,11 +6,11 @@ body{
 }
 .container{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
  
 }
 /* navbar layout */
-header{
+.header{
    padding:5px;
    background-color: #D4E6F1;
    position:fixed;
@@ -80,7 +80,7 @@ color:#D98880;
 }
 
 /* general main layout */
-.content{
+/* .content{
     margin-top: 50px;
     display:flex;
     flex-direction: column;
@@ -92,7 +92,7 @@ color:#D98880;
 margin-bottom: 15px;
 font-family: 'Merienda',cursive;
 font-size: 40px;
-}
+} */
 
 /* layout of work section*/
 /* .content #work{
