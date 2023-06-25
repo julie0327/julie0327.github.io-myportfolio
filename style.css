@@ -113,6 +113,10 @@ font-size: 40px;
     height: 250px;
     margin: 10px;
 }
+.l_hr_img:hover img{
+    width:800px;
+    height: 350px;
+}
 .content .s_hr_img img{
     margin: 10px;
     width:200px;
