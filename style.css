@@ -10,21 +10,15 @@ body{
 }
 /* navbar layout */
 .header{
-   padding:5px;
+   padding:20px;
    background-color: #D4E6F1;
-   position:fixed;
-   top:0;
-   left:0;
-   right:0;
-   z-index: 1000;
-   width:100%
 }
 #navbar img{
     width:150px;
     height: 150px;
     border-radius: 50%;
-    padding:20px;
-    margin: 20px;
+    padding:5px;
+    margin: 5px;
     display: inline-block;
 }
 span{
@@ -57,12 +51,16 @@ a:active{
 }
 
 /*layout of id home */
+#home{
+    height: 600px;
+    width: 100%;
+}
 #home img{
-    width:20%;
-    height: 40%;
+    width:400px;
+    height: 500px;
     padding: 10px;
     margin-right: 80px;
-    margin-top: 300px;
+    margin-top: 80px;
     float: right;
     border: #34495E solid 8px;
     border-radius: 7px;
@@ -74,7 +72,7 @@ display: flex;
 justify-content: center;
 padding: 20px;
 position: relative;
-top:450px;
+top:200px;
 color:#D98880;
 }
 
