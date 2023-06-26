@@ -116,7 +116,7 @@ justify-content: center;
     height: 250px;
     margin: 10px;
 }
-.l_hr_img:hover img{
+.l_hr_img:hover .first_source{
     width:800px;
     height: 350px;
 }
