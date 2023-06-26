@@ -8,14 +8,17 @@ body{
     display:flex;
     flex-direction: column;
 }
+
 /* navbar layout */
 .header{
    padding:20px;
    background-color: #D4E6F1;
+   width:auto;
+   padding: auto;
 }
 #navbar img{
-    width:150px;
-    height: 150px;
+    width:10%;
+    height: 10%;
     border-radius: 50%;
     padding:5px;
     margin: 5px;
@@ -56,8 +59,8 @@ a:active{
     width: 100%;
 }
 #home img{
-    width:400px;
-    height: 500px;
+    width:25%;
+    height: auto;
     padding: 10px;
     margin-right: 80px;
     margin-top: 80px;
@@ -81,9 +84,6 @@ color:#D98880;
     margin-top: 20px;
     display:flex;
     flex-direction: column;
-    /* align-items: center; */
-    /* height: 100vh; */
-    
 }
 .content h3{
 margin-bottom: 15px;
@@ -92,23 +92,26 @@ font-size: 40px;
 }
 
 /* layout of work section*/
-.content #work{
+#work{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
-    width:100%;
+    width: auto;
     padding: 50px;
     height: 500px;
-    /* background-color: #D4E6F1; */
     color:  #7FB3D5;
 }
-.content .hr_img{
+#work p{
+    display: flex;
+justify-content: center;
+}
+#work .hr_img{
     display: flex;
     margin: 10px;
 
 }
-.content .l_hr_img img{
+#work .l_hr_img img{
     width:600px;
     height: 250px;
     margin: 10px;
@@ -117,7 +120,7 @@ font-size: 40px;
     width:800px;
     height: 350px;
 }
-.content .s_hr_img img{
+#work .s_hr_img img{
     margin: 10px;
     width:200px;
     height: 100px;
@@ -133,7 +136,7 @@ font-size: 40px;
 }
 
 /* layout of about section */
-.content #about{
+#about{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -145,7 +148,7 @@ font-size: 40px;
    height:200px;
    color:#D98880;
 }
-.content #contact{
+#contact{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -163,4 +166,35 @@ font-size: 40px;
     padding: 10px;
     margin-bottom: 25px;
     color:#D98880;
+}
+
+/* fit different devices */
+@media screen and (max-width: 768px) {
+li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#work .hr_img{
+    display: flex;
+    flex-wrap:wrap ;
+}
+#work{
+    margin-bottom: 30%;
+}
+}
+
+@media screen and (max-width: 576px) {
+li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#work .hr_img{
+    display: flex;
+    flex-wrap:wrap ;
+}
+#work{
+    margin-bottom: 30%;
+}
 }
