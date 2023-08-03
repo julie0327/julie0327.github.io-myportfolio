@@ -62,7 +62,7 @@ a:active{
     align-items: center;
 }
 #home img{
-    width:22%;
+    width:400px;
     height: auto;
     padding: 10px;
     float: right;
@@ -95,7 +95,7 @@ a:active{
 }
 
 /* layout of work section*/
-#work{
+#project{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -103,33 +103,33 @@ a:active{
     width: auto;
     color:  #7FB3D5;
 }
-#work p{
+#project p{
     display: flex;
     justify-content: center;
 }
-#work .hr_img{
+#project .hr_img{
     display: flex;
     flex-wrap: wrap;
     margin-top: 30px;
     width: 100%;
 }
-#work .hr_img .hr_img_addr {
-    width: 100%;
+#project .hr_img .first_img_addr {
+    width: 40%;
 }
 .hr_img_item:not(:last-child) {
     padding-right: 10px;
 }
-#work .l_hr_img {
+#project .l_hr_img {
     flex-basis: 50%;
 }
-#work .s_hr_img {
+#project .s_hr_img {
     flex-basis: 25%;
 }
 .hr_img_item:hover img {
     transform: scale(1.1);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
-#work .l_hr_img img, #work .s_hr_img img{
+#project .l_hr_img img, #project .s_hr_img img{
     width: 100%;
 }
 .content .work_p{
@@ -175,7 +175,7 @@ a:active{
         flex-direction: column;
         align-items: center;
     }
-    #work{
+    #project{
         margin-bottom: 30%;
     }
     #home {
@@ -192,7 +192,7 @@ a:active{
         flex-direction: column;
         align-items: center;
     }
-    #work{
+    #project{
         margin-bottom: 30%;
     }
     #home {
