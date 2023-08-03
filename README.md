@@ -6,4 +6,4 @@ my portfolio using the HTML5 and CSS with a custom design <br/>
 * Fit all size screens<br/>
 ### Deployment
  * [My Portfolio](https://julie0327.github.io/julie0327.github.io-myportfolio/)
- *  https://julie0327.github.io/julie0327.github.io-myportfolio/
+ * https://julie0327.github.io/myportfolio/
